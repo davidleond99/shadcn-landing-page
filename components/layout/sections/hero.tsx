@@ -23,14 +23,14 @@ export const HeroSection = () => {
           </Badge>
 
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
-            <h1>
+            <h1 className="pb-2">
               Renta el auto perfecto para tu viaje
+            </h1>
               <CycleText
                 words={carTypes}
                 template={(word) => `${word}`}
                 interval={1500}
               />
-            </h1>
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
