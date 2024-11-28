@@ -25,22 +25,23 @@ export const TeamSection = () => {
   const teamList: TeamProps[] = [
     {
       imageUrl: "https://i.pravatar.cc/250?img=58",
-      firstName: "Leo",
-      lastName: "Miranda",
-      positions: ["Vue Fronted Developer", "Creator Of This Website"],
+      firstName: "David",
+      lastName: "León",
+      positions: ["NEXTJS Developer"],
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/davidleond99/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
-        },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+          url: "https://github.com/davidleond99",
+        }
+        // ,
+        // {
+        //   name: "X",
+        //   url: "https://x.com/leo_mirand4",
+        // },
       ],
     },
     {
@@ -52,12 +53,12 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/davidleond99/",
         },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+        // {
+        //   name: "X",
+        //   url: "https://x.com/leo_mirand4",
+        // },
       ],
     },
     {
@@ -69,11 +70,11 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/davidleond99/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/davidleond99",
         },
       ],
     },
@@ -86,16 +87,16 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/davidleond99/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/davidleond99",
         },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+        // {
+        //   name: "X",
+        //   url: "https://x.com/leo_mirand4",
+        // },
       ],
     },
     {
@@ -107,7 +108,7 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/davidleond99/",
         },
       ],
     },
@@ -120,11 +121,11 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/davidleond99/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/davidleond99",
         },
       ],
     },
@@ -137,16 +138,16 @@ export const TeamSection = () => {
       socialNetworks: [
         {
           name: "LinkedIn",
-          url: "https://www.linkedin.com/in/leopoldo-miranda/",
+          url: "https://www.linkedin.com/in/davidleond99/",
         },
         {
           name: "Github",
-          url: "https://github.com/leoMirandaa",
+          url: "https://github.com/davidleond99",
         },
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+        // {
+        //   name: "X",
+        //   url: "https://x.com/leo_mirand4",
+        // },
       ],
     },
     {
@@ -156,10 +157,10 @@ export const TeamSection = () => {
       lastName: "Taylor",
       positions: ["Fullstack Developer", "UX Researcher"],
       socialNetworks: [
-        {
-          name: "X",
-          url: "https://x.com/leo_mirand4",
-        },
+        // {
+        //   name: "X",
+        //   url: "https://x.com/leo_mirand4",
+        // },
       ],
     },
   ];
