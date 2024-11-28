@@ -1,4 +1,6 @@
 "use client";
+import AnimatedGradientText from "@/components/animata/text/animated-gradient-text";
+import CycleText from "@/components/animata/text/cycle-text";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
@@ -7,6 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const HeroSection = () => {
+  const carTypes = ["económico", "de lujo", "familiar", "de aventura"];
   const { theme } = useTheme();
   return (
     <section className="container w-full">
@@ -21,18 +24,20 @@ export const HeroSection = () => {
 
           <div className="max-w-screen-md mx-auto text-center text-4xl md:text-6xl font-bold">
             <h1>
-              Experience the
-              <span className="text-transparent px-2 bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text">
-                Shadcn
-              </span>
-              landing page
+              Renta el auto perfecto para tu viaje
+              <CycleText
+                words={carTypes}
+                template={(word) => `${word}`}
+                interval={1500}
+              />
             </h1>
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {`We're more than just a tool, we're a community of passionate
-            creators. Get access to exclusive resources, tutorials, and support.`}
+            Explora la isla con comodidad y estilo. Encuentra los mejores precios en
+            autos de todas las categorías, adaptados a tus necesidades.
           </p>
+
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
             <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
