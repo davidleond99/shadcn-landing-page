@@ -76,7 +76,7 @@ export default function ProductFeatures() {
     const yOffset = 30;
 
     return (
-        <section className="storybook-fix flex w-full flex-col items-center gap-4 bg-orange-50 py-10 pt-20 mt-12">
+        <section className="storybook-fix flex w-full flex-col items-center gap-4 bg-primary/10 py-10 pt-20 mt-12">
             <motion.header
                 initial={{
                     y: 100,
@@ -91,8 +91,8 @@ export default function ProductFeatures() {
                 }}
                 className="flex max-w-md flex-col items-center gap-2 text-center"
             >
-                <h3 className="text-3xl font-black text-orange-600">Cuba For Rent</h3>
-                <Balancer className="block text-lg text-neutral-500">
+                <h3 className="text-3xl font-black text-primary">Cuba For Rent</h3>
+                <Balancer className="block text-lg text-secondary">
                    
                     Renta el auto perfecto para tu viaje
                     
@@ -113,11 +113,11 @@ export default function ProductFeatures() {
                 }}
             >
                 <button
-                    className="box-border inline-block h-11 transform-gpu cursor-pointer touch-manipulation whitespace-nowrap rounded-full border-b-4 border-solid border-transparent bg-orange-600 px-4 py-3 text-center text-sm font-bold uppercase leading-5 tracking-wider text-white shadow-2xl outline-none transition-all duration-200 hover:brightness-110 active:border-b-0 active:border-t-4 active:bg-none disabled:cursor-auto"
+                    className="box-border inline-block h-11 transform-gpu cursor-pointer touch-manipulation whitespace-nowrap rounded-full border-b-4 border-solid border-transparent bg-primary px-4 py-3 text-center text-sm font-bold uppercase leading-5 tracking-wider text-white shadow-2xl outline-none transition-all duration-200 hover:brightness-110 active:border-b-0 active:border-t-4 active:bg-none disabled:cursor-auto"
                     role="button"
                 >
                     Rent &rarr;
-                    <span className="absolute inset-0 -z-10 rounded-full border-b-4 border-solid border-transparent bg-orange-500" />
+                    <span className="absolute inset-0 -z-10 rounded-full border-b-4 border-solid border-transparent bg-primary/50" />
                 </button>
             </motion.div>
 
