@@ -1,4 +1,5 @@
 import Expandable from "@/components/animata/carousel/expandable";
+import SlackIntro from "@/components/animata/hero/slack-intro";
 import { BenefitsSection } from "@/components/layout/sections/benefits";
 import { Blog } from "@/components/layout/sections/blog";
 import { CarouselSection } from "@/components/layout/sections/carousel";
@@ -46,6 +47,7 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+    {/* <SlackIntro /> */}
       <HeroSection />
       <Expandable />
       <CarouselSection />
