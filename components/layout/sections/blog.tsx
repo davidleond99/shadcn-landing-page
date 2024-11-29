@@ -5,9 +5,9 @@ export const Blog = () => (
     
         <div className="container mx-auto flex flex-col gap-14">
             <div className="flex w-full flex-row justify-between items-center gap-8">
-                <h4 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
+                <h3 className="text-3xl md:text-5xl tracking-tighter max-w-xl font-regular">
                     Latest articles
-                </h4>
+                </h3>
                 <Button className="gap-4">
                     View all articles <MoveRight className="w-4 h-4" />
                 </Button>

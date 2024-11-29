@@ -172,7 +172,7 @@ export const ContactSection = () => {
                   />
                 </div>
 
-                <div className="flex flex-col gap-1.5">
+                {/* <div className="flex flex-col gap-1.5">
                   <FormField
                     control={form.control}
                     name="subject"
@@ -208,7 +208,7 @@ export const ContactSection = () => {
                       </FormItem>
                     )}
                   />
-                </div>
+                </div> */}
 
                 <div className="flex flex-col gap-1.5">
                   <FormField
@@ -232,7 +232,7 @@ export const ContactSection = () => {
                   />
                 </div>
 
-                <Button className="mt-4">Send message</Button>
+                <Button id="send" aria-label="Send" className="mt-4">Send message</Button>
               </form>
             </Form>
           </CardContent>

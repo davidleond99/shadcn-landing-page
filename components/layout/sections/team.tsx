@@ -215,9 +215,8 @@ export const TeamSection = () => {
               {positions.map((position, index) => (
                 <CardContent
                   key={index}
-                  className={`pb-0 text-muted-foreground ${
-                    index === positions.length - 1 && "pb-6"
-                  }`}
+                  className={`pb-0 text-muted-foreground ${index === positions.length - 1 && "pb-6"
+                    }`}
                 >
                   {position}
                   {index < positions.length - 1 && <span>,</span>}
@@ -227,6 +226,7 @@ export const TeamSection = () => {
               <CardFooter className="space-x-4 mt-auto">
                 {socialNetworks.map(({ name, url }, index) => (
                   <Link
+                    aria-label={url}
                     key={index}
                     href={url}
                     target="_blank"

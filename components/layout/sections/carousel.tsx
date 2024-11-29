@@ -35,9 +35,9 @@ export const CarouselSection = () => {
         <div className="w-full py-20 lg:py-40">
             <div className="container mx-auto">
                 <div className="grid grid-cols-5 gap-10 items-center">
-                    <h3 className="text-xl tracking-tighter lg:max-w-xl font-regular text-left">
+                    <h2 className="text-xl tracking-tighter lg:max-w-xl font-regular text-left">
                         Trusted by market leaders
-                    </h3>
+                    </h2>
                     <div className="relative w-full col-span-4">
                         <div className="bg-gradient-to-r from-background via-white/25 to-white/25 h-full w-full absolute inset-0 blur-3xl"></div>
                         <Carousel setApi={setApi} className="w-full">
