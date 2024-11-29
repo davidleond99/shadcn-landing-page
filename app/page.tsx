@@ -1,4 +1,5 @@
 import Expandable from "@/components/animata/carousel/expandable";
+import ProductFeatures from "@/components/animata/hero/product-features";
 import SlackIntro from "@/components/animata/hero/slack-intro";
 import { BenefitsSection } from "@/components/layout/sections/benefits";
 import { Blog } from "@/components/layout/sections/blog";
@@ -48,6 +49,7 @@ export default function Home() {
   return (
     <>
     {/* <SlackIntro /> */}
+  <ProductFeatures />
       <HeroSection />
       <Expandable />
       <CarouselSection />
