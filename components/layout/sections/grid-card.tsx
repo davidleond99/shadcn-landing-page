@@ -22,9 +22,9 @@ export const GridCard = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer">
                 {Array.from({ length: 3 }).map((_, index) => (
                     <FlipCard
-                        key={index}
+                        key={index + 10}
                         description="Computer programming or coding is the composition of sequences of instructions, called programs, that computers can follow to perform tasks."
-                        image=" https://images.unsplash.com/photo-1525373698358-041e3a460346?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3"
+                        image="/premium_photo-1664303847960-586318f59035.jpeg"
                         rotate="y"
                         subtitle="What is programming?"
                         title="Programming"
@@ -34,9 +34,9 @@ export const GridCard = () => {
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer pt-8">
                 {Array.from({ length: 3 }).map((_, index) => (
                     <FlipCard
-                    key={index}
+                    key={index +1 }
                         description="I am a full-stack developer with a passion for building beautiful and functional applications."
-                        image="https://images.unsplash.com/photo-1717966313670-a42f6908be92?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3"
+                        image="/istockphoto-1493574434-612x612.jpeg"
                         rotate="x"
                         subtitle="Software Engineer"
                         title="Bibek Bhattarai"
