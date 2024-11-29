@@ -91,10 +91,11 @@ export default function ProductFeatures() {
                 }}
                 className="flex max-w-md flex-col items-center gap-2 text-center"
             >
-                <h3 className="text-3xl font-black text-orange-600">Pots of Joy: Ceramic Chic!</h3>
+                <h3 className="text-3xl font-black text-orange-600">Cuba For Rent</h3>
                 <Balancer className="block text-lg text-neutral-500">
-                    Quirky ceramics for happy spaces. From sleek vases to funky mugs, we&apos;ve got your
-                    shelves covered.
+                   
+                    Renta el auto perfecto para tu viaje
+                    
                 </Balancer>
             </motion.header>
 
@@ -115,7 +116,7 @@ export default function ProductFeatures() {
                     className="box-border inline-block h-11 transform-gpu cursor-pointer touch-manipulation whitespace-nowrap rounded-full border-b-4 border-solid border-transparent bg-orange-600 px-4 py-3 text-center text-sm font-bold uppercase leading-5 tracking-wider text-white shadow-2xl outline-none transition-all duration-200 hover:brightness-110 active:border-b-0 active:border-t-4 active:bg-none disabled:cursor-auto"
                     role="button"
                 >
-                    Ready to clay &rarr;
+                    Rent &rarr;
                     <span className="absolute inset-0 -z-10 rounded-full border-b-4 border-solid border-transparent bg-orange-500" />
                 </button>
             </motion.div>
