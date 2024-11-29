@@ -44,7 +44,7 @@ export const CarouselSection = () => {
                             <CarouselContent>
                                 {Array.from({ length: 25 }).map((_, index) => (
                                     <CarouselItem
-                                        className="basis-1/3 lg:basis-1/6"
+                                        className="basis-1/3 lg:basis-1/8 rounded-sm"
                                         key={index}
                                     >
                                         <div className="relative w-full h-full aspect-square">
