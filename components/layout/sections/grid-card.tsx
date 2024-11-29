@@ -20,7 +20,7 @@ export const GridCard = () => {
             </h3>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer">
-                {Array.from({ length: 10 }).map((_, index) => (
+                {Array.from({ length: 3 }).map((_, index) => (
                     <FlipCard
                         key={index}
                         description="Computer programming or coding is the composition of sequences of instructions, called programs, that computers can follow to perform tasks."
@@ -28,6 +28,18 @@ export const GridCard = () => {
                         rotate="y"
                         subtitle="What is programming?"
                         title="Programming"
+                        />
+                    ))}
+            </div>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 cursor-pointer pt-8">
+                {Array.from({ length: 3 }).map((_, index) => (
+                    <FlipCard
+                    key={index}
+                        description="I am a full-stack developer with a passion for building beautiful and functional applications."
+                        image="https://images.unsplash.com/photo-1717966313670-a42f6908be92?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3"
+                        rotate="x"
+                        subtitle="Software Engineer"
+                        title="Bibek Bhattarai"
                     />
                 ))}
             </div>

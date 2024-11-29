@@ -7,6 +7,7 @@ import {
     CarouselContent,
     CarouselItem,
 } from "@/components/ui/carousel";
+import Image from "next/image";
 
 export const CarouselSection = () => {
     const [api, setApi] = useState<CarouselApi>();
@@ -17,7 +18,7 @@ export const CarouselSection = () => {
             return;
         }
 
-        setTimeout(() => {
+        const timer = setTimeout(() => {
             if (api.selectedScrollSnap() + 1 === api.scrollSnapList().length) {
                 setCurrent(0);
                 api.scrollTo(0);
@@ -26,6 +27,8 @@ export const CarouselSection = () => {
                 setCurrent(current + 1);
             }
         }, 1000);
+
+        return () => clearTimeout(timer);
     }, [api, current]);
 
     return (
@@ -36,16 +39,22 @@ export const CarouselSection = () => {
                         Trusted by market leaders
                     </h3>
                     <div className="relative w-full col-span-4">
-                        <div className="bg-gradient-to-r from-background via-white/0 to-background z-10 absolute left-0 top-0 right-0 bottom-0 w-full h-full"></div>
+                        <div className="bg-gradient-to-r from-background via-white/25 to-white/25 h-full w-full absolute inset-0 blur-3xl"></div>
                         <Carousel setApi={setApi} className="w-full">
                             <CarouselContent>
                                 {Array.from({ length: 25 }).map((_, index) => (
                                     <CarouselItem
-                                        className="basis-1/4 lg:basis-1/6"
+                                        className="basis-1/3 lg:basis-1/6"
                                         key={index}
                                     >
-                                        <div className="flex rounded-md aspect-square bg-muted items-center justify-center p-2">
-                                            <span className="text-sm">Logo {index + 1}</span>
+                                        <div className="relative w-full h-full aspect-square">
+                                            <Image
+                                                width={1200}
+                                                height={1200}
+                                                className="object-cover rounded-lg"
+                                                src="/png-clipart-car-car-white-thumbnail.png"
+                                                alt={`Dashboard ${index + 1}`}
+                                            />
                                         </div>
                                     </CarouselItem>
                                 ))}
@@ -57,3 +66,4 @@ export const CarouselSection = () => {
         </div>
     );
 };
+
